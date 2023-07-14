@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "hasura-cli": "^2.29.1"
+  }
+}

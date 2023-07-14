@@ -1,0 +1,1 @@
+CREATE TABLE "public"."fav_num" ("id" serial NOT NULL, "number" text NOT NULL, "created_at" timestamptz NOT NULL DEFAULT now(), "user_id" integer NOT NULL, PRIMARY KEY ("id") , FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON UPDATE restrict ON DELETE restrict, UNIQUE ("id"));
