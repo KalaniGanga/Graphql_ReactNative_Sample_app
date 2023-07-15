@@ -18,14 +18,14 @@ Get started
 4. Install dependencies with npm. npm install & zeed_assignment/npm install
 5. change docker-compose environment to your local postgresql database envirement credentials.
 6. To connect Postgresql database with Hasura Run 
-    ### docker compose up -d
+### `docker compose up -d`
 7. To open the hasura console
-    ### cd hasura/hasura console
+    ### `cd hasura/hasura console`
 8. To start react native app
-    ### cd zeed_assignment/npm run start
+    ### `cd zeed_assignment/npm run start`
 9. To run on Android
-    ### cd zeed_assignment/npm run android
+    ### `cd zeed_assignment/npm run android`
 10. To run on Android
-    ### cd zeed_assignment/npm run ios
+    ### `cd zeed_assignment/npm run ios`
 
 
