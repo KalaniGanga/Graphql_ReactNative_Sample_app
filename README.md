@@ -12,20 +12,20 @@ Requirements
 
 Get started
 
-Clone the project repo in your local environment.
-Rename the zeed_assignment/env.example file to .env .
-Create a Firebase account and add Firebase credentials and a Google API key to the.env file.
-Install dependencies with npm. npm install & zeed_assignment/npm install
-change docker-compose environment to your local postgresql database envirement credentials.
-To connect Postgresql database with Hasura Run 
+1. Clone the project repo in your local environment.
+2. Rename the zeed_assignment/env.example file to .env .
+3. Create a Firebase account and add Firebase credentials and a Google API key to the.env file.
+4. Install dependencies with npm. npm install & zeed_assignment/npm install
+5. change docker-compose environment to your local postgresql database envirement credentials.
+6. To connect Postgresql database with Hasura Run 
     docker compose up -d
-To open the hasura console
+7. To open the hasura console
     cd hasura/hasura console
-To start react native app
+8. To start react native app
     cd zeed_assignment/npm run start
-To run on Android
+9. To run on Android
     cd zeed_assignment/npm run android
-To run on Android
+10. To run on Android
     cd zeed_assignment/npm run ios
 
 
