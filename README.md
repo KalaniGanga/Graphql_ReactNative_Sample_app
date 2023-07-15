@@ -3,7 +3,7 @@ A basic React Native app to demonstrate React Query with GraphQL Code generator 
 
 Requirements
 
-1. Expo CLI (SDK 42)
+1. Expo CLI
 2. Docker
 3. Docker Compose
 4. Hasura CLI
